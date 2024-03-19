@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora de Codar</title>
+</head>
+<body> 
+    <script>
+        //1.  Escreva um programa em Javascript e crie uma variável chamada "nome_do_carro" e atribua-a um valor "Fusca". Exiba-a ao usuário.
+        
+
+        var nome = "Nome do Carro ";
+        alert(nome + "Fusca");
+
+        
+
+
+
+
+
+
+
+
+
+
+        //2. Escreva um programa em Javascript em que o usuário informe o seu nome e exiba a mensagem "Olá, [NomeDoUsuario]".
+
+
+        var a = prompt("Por favor, inserir o seu nome");
+        var b = "Olá, ";
+        alert(b + a );
+
+
+
+
+
+
+
+
+
+
+
+
+        //3. Escreva um programa em Javascript em que o usuário informe o seu nome e em seguida o programa perguntará a idade do usuário. Agora o programa deve exibir a mensagem "Olá, [NomeDoUsuario], sua idade é [idade]".
+
+
+
+        var c = prompt("Por favor, inserir o seu nome");
+        var d = prompt("Por favor, inserir sua idade");
+        var e = "Olá, ";
+        var f = " sua idade é ";
+        alert(e + c + f + d  );
+
+
+
+
+
+        //4.Considerando a figura abaixo, escreva um programa para cada forma que calcule e exiba em tela cada uma de suas respectivas áreas. O usuário irá informar os valores de cada variável.
+
+        var base;
+        var altura;
+        var resultado,
+
+    
+        base = parseInt(prompt("Por favor, informe o valor da base do retângulo"));
+        altura = parseInt(prompt("Por favor, informe o valor da altura do retângulo "));
+        resultado = base * altura;
+
+        document.write("<h2>Resultado</h2>");
+        document.write("<p>Retângulo: A = " + resultado.toFixed(2) + "</p>");
+
+
+        //4.Considerando a figura abaixo, escreva um programa para cada forma que calcule e exiba em tela cada uma de suas respectivas áreas. O usuário irá informar os valores de cada variável.
+
+
+        var lado;
+        var resultado;
+
+        lado = parseInt(prompt("Por favor, informe o valor do lado do quadrado"));
+        resultado = (lado * lado) / 2;
+
+        document.write("<h2>Resultado</h2>");
+        document.write("<p>Quadrado: A = " + resultado.toFixed(2) + "</p>");
+
+
+
+
+        //4.Considerando a figura abaixo, escreva um programa para cada forma que calcule e exiba em tela cada uma de suas respectivas áreas. O usuário irá informar os valores de cada variável.
+
+        var diagonalMaior;
+        var diagonalMenor;
+        var resultado;
+
+        diagonalMaior = parseFloat(prompt("Por favor, informe o valor da diagonal maior do losango"));
+        diagonalMenor = parseFloat(prompt("Por favor, informe o valor da diagonal menor do losango"));
+        resultado = (diagonalMaior * diagonalMenor) / 2;
+
+        document.write("<h2>Resultado</h2>");
+        document.write("<p>Losango: A = " + resultado.toFixed(2) + "</p>");
+
+
+
+
+        //4.Considerando a figura abaixo, escreva um programa para cada forma que calcule e exiba em tela cada uma de suas respectivas áreas. O usuário irá informar os valores de cada variável.
+
+        var baseMaior;
+        var baseMenor;
+        var altura;
+        var resultado;
+
+
+
+
+        baseMaior = parseFloat(prompt("Por favor, informe o valor da base maior do trapézio"));
+        baseMenor = parseFloat(prompt("Por favor, informe o valor da base menor do trapézio"));
+        altura = parseFloat(prompt("Por favor, informe o valor da altura do trapézio"));
+        resultado = ((baseMaior + baseMenor) * altura) / 2;
+          
+        document.write("<h2>Resultado</h2>");
+        document.write("<p>Trapézio: A = " + resultado.toFixed(2) + "</p>");
+
+
+
+
+
+
+
+
+
+
+       //4.Considerando a figura abaixo, escreva um programa para cada forma que calcule e exiba em tela cada uma de suas respectivas áreas. O usuário irá informar os valores de cada variável.
+
+
+        var baseTriangulo;
+        var alturaTriangulo;
+        var resultado;
+
+        
+
+        baseTriangulo = parseFloat(prompt("Por favor, informe o valor da base do triângulo"));
+        alturaTriangulo = parseFloat(prompt("Por favor, informe o valor da altura do triângulo"));
+
+        resultado = (baseTriangulo * alturaTriangulo) / 2;
+
+        document.write("<h2>Resultado</h2>");
+        document.write("<p>Triângulo: A = " + resultado.toFixed(2) + "</p>");
+
+
+
+        //4.Considerando a figura abaixo, escreva um programa para cada forma que calcule e exiba em tela cada uma de suas respectivas áreas. O usuário irá informar os valores de cada variável.
+
+        var base;
+        var altura;
+        var resultado;
+
+
+        
+        base = parseFloat(prompt("Por favor, informe o valor da base do paralelogramo"));
+        altura = parseFloat(prompt("Por favor, informe o valor da altura do paralelogramo"));
+        var resultado = base * altura;
+
+        document.write("<h2>Resultado</h2>");
+        document.write("<p>Paralelogramo: A = " + resultado.toFixed(2) + "</p>");
+
+
+
+
+
+
+
+
+
+           //4.Considerando a figura abaixo, escreva um programa para cada forma que calcule e exiba em tela cada uma de suas respectivas áreas. O usuário irá informar os valores de cada variável.
+
+           var raio;
+           var resultado;
+
+
+           
+           raio = parseFloat(prompt("Por favor, informe o valor do raio do círculo"));
+           resultado = Math.PI * Math.pow(raio, 2);
+
+           document.write("<h2>Resultado</h2>");
+           document.write("<p>Círculo: A = " + resultado.toFixed(2) + "</p>");
+
+
+
+
+
+ 
+    </script>
+
+    
+</body>
+</html>
